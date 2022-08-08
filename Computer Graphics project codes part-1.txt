@@ -1,0 +1,158 @@
+void rickshaw(int a, int b)//For rickshaw
+{
+
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.0, 0.0);
+
+
+    glVertex2i(a + 232, b + 208);
+    glVertex2i(a + 228, b + 180);  //Right Leg For Rickshawala
+    glVertex2i(a + 235, b + 180);
+    glVertex2i(a + 242, b + 208);
+    glEnd();
+
+
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.0, 0.0);
+    glVertex2i(a + 240, b + 208);
+    glVertex2i(a + 238, b + 180);  //Left Leg For Rickshawala
+    glVertex2i(a + 245, b + 180);
+    glVertex2i(a + 248, b + 208);
+    glEnd();
+
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0, 0.0, 0.0);
+    glVertex2i(a + 200, b + 200);
+    glVertex2i(a + 260, b + 200);
+    glVertex2i(a + 260, b + 202);
+    glVertex2i(a + 200, b + 202);
+
+    glVertex2i(a + 260, b + 210);
+    glVertex2i(a + 265, b + 210);
+    glVertex2i(a + 265, b + 170);
+    glVertex2i(a + 270, b + 170);
+
+    glVertex2i(a + 200, b + 205);
+    glVertex2i(a + 260, b + 205);
+    glVertex2i(a + 260, b + 207);
+    glVertex2i(a + 200, b + 207);
+
+    glVertex2i(a + 200, b + 200);
+    glVertex2i(a + 200, b + 203);
+    glVertex2i(a + 230, b + 170);
+    glVertex2i(a + 233, b + 173);
+
+    glVertex2i(a + 260, b + 200);
+    glVertex2i(a + 260, b + 203);
+    glVertex2i(a + 230, b + 170);
+    glVertex2i(a + 233, b + 173);
+
+    glVertex2i(a + 200, b + 213);
+    glVertex2i(a + 205, b + 213);
+    glVertex2i(a + 195, b + 170);
+    glVertex2i(a + 200, b + 173);
+
+    glVertex2i(a + 250, b + 170);
+    glVertex2i(a + 230, b + 175);
+    glVertex2i(a + 280, b + 175);
+    glVertex2i(a + 280, b + 170);
+
+
+    glVertex2i(a + 250, b + 170);
+    glVertex2i(a + 230, b + 180);
+    glVertex2i(a + 250, b + 180);
+    glVertex2i(a + 230, b + 170);
+
+    glVertex2i(a + 200, b + 213);
+    glVertex2i(a + 215, b + 213);
+    glVertex2i(a + 200, b + 216);
+    glVertex2i(a + 215, b + 216);
+
+
+    glColor3f(0.0, 330.0, 0.0);
+    glVertex2i(a + 210, b + 213);
+    glVertex2i(a + 240, b + 216);
+    glVertex2i(a + 210, b + 220);
+    glVertex2i(a + 235, b + 220);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.0, 0.50);
+    glVertex2i(a + 267, b + 192);
+    glVertex2i(a + 292, b + 192);
+    glVertex2i(a + 302, b + 202);
+    glVertex2i(a + 302, b + 212);
+    glVertex2i(a + 292, b + 212);
+    glVertex2i(a + 292, b + 202);
+    glVertex2i(a + 267, b + 202);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+    glColor3f(0.50, 0.0, 0.0);
+    glVertex2i(a + 287, b + 227);
+    glVertex2i(a + 302, b + 227);
+    glVertex2i(a + 307, b + 255);
+    glVertex2i(a + 290, b + 255);
+    glVertex2i(a + 275, b + 260);
+    glVertex2i(a + 275, b + 255);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.90, 0.0);
+    glVertex2i(a + 292, b + 227);
+    glVertex2i(a + 294, b + 227);
+    glVertex2i(a + 292, b + 210);
+    glVertex2i(a + 294, b + 210);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.90, 0.0);
+    glVertex2i(a + 288, b + 227);
+    glVertex2i(a + 290, b + 227);
+    glVertex2i(a + 292, b + 210);
+    glVertex2i(a + 294, b + 210);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.90, 0.0);
+    glVertex2i(a + 296, b + 227);
+    glVertex2i(a + 300, b + 227);
+    glVertex2i(a + 292, b + 210);
+    glVertex2i(a + 294, b + 210);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.0, 0.90);
+    glVertex2i(a + 296, b + 220);
+    glVertex2i(a + 300, b + 220);
+    glVertex2i(a + 296, b + 210);
+    glVertex2i(a + 300, b + 210);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 2.0, 0.0);
+    glVertex2i(a + 235, b + 238);
+    glVertex2i(a + 235, b + 230);
+    glVertex2i(a + 245, b + 230);
+    glVertex2i(a + 245, b + 238);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+    glColor3f(255.0, 255.0, 255.0);
+    glVertex2i(a + 235, b + 230);
+    glVertex2i(a + 228, b + 208);
+    glVertex2i(a + 252, b + 208);
+    glVertex2i(a + 245, b + 230);
+    glEnd();
+
+
+    glBegin(GL_POLYGON);
+    glColor3f(1.0, 0.0, 0.0);
+    glVertex2i(a + 235, b + 242);
+    glVertex2i(a + 235, b + 238);
+    glVertex2i(a + 245, b + 238);
+    glVertex2i(a + 245, b + 242);
+    glEnd();
+}
+
