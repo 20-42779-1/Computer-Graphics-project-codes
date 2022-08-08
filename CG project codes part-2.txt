@@ -1,0 +1,39 @@
+
+    int i11;// Light 1
+    GLint x11 = 115;
+    GLint y11 = 370;
+    GLfloat radius11 = 15;
+    int triangleAmount11 = 30;
+
+    GLfloat twicePi11 = 2.0f * PI;
+
+    glBegin(GL_TRIANGLE_FAN);
+    glColor3ub(96, 96, 96);
+    glVertex2f(a + x11, b + y11);
+    for (i11 = 0; i11 <= triangleAmount11; i11++)
+    {
+        glVertex2f(
+            a + x11 + (radius11 * cos(i11 * twicePi11 / triangleAmount11)),
+            b + y11 + (radius11 * sin(i11 * twicePi11 / triangleAmount11))
+        );
+    }
+    glEnd();
+    int i12;// Light 2
+    GLint x12 = 315;
+    GLint y12 = 370;
+    GLfloat radius12 = 15;
+    int triangleAmount12 = 30;
+
+    GLfloat twicePi12 = 2.0f * PI;
+
+    glBegin(GL_TRIANGLE_FAN);
+    glColor3ub(96, 96, 96);
+    glVertex2f(a + x12, b + y12);
+    for (i12 = 0; i12 <= triangleAmount12; i12++)
+    {
+        glVertex2f(
+            a + x12 + (radius12 * cos(i12 * twicePi12 / triangleAmount12)),
+            b + y12 + (radius12 * sin(i12 * twicePi12 / triangleAmount12))
+        );
+    }
+    glEnd();
