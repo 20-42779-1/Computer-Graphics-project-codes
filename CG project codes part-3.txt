@@ -1,0 +1,34 @@
+
+    // Parliament Main Work from Here
+    //middle
+    glBegin(GL_QUADS);// Parmiament house main door
+    glColor3ub(64, 64, 64);
+    glVertex2i(610, 630);
+    glVertex2i(610, 430);
+    glVertex2i(550, 430);
+    glVertex2i(550, 630);
+    glEnd();
+
+
+    glBegin(GL_QUADS);
+    glColor3ub(192, 192, 192);
+    glVertex2i(550, 620);
+    glVertex2i(550, 570);
+    glVertex2i(610, 570);
+    glVertex2i(610, 620);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor3ub(255, 255, 255);
+    glVertex2i(550, 605);
+    glVertex2i(610, 605);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor3ub(255, 255, 255);
+    glVertex2i(550, 588);
+    glVertex2i(610, 588);
+    glEnd();
+
+
+
